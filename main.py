@@ -158,7 +158,7 @@ class MainWidget(RelativeLayout):
         for i in range (0 , 3):
             px, py = self.ship_coordinates[i]
             if xmin <= px <= xmax and ymin <= py <= ymax:
-                return Trueg
+                return True
         return False
 
     def init_tiles(self):
